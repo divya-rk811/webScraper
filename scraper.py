@@ -35,7 +35,7 @@ class NewsScraper:
             writer = csv.writer(f)
             writer.writerow(['Title', 'Link', 'Scraped At'])
             writer.writerows(data)
-        print(f"✅ Success! Data saved to {filename}")
+        print(f"Success! Data saved to {filename}")
 
 if __name__ == "__main__":
     scraper = NewsScraper()
